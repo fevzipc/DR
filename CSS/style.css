@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"); /*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+p {
+	word-break: break-all;
+}
+body {
+	
+}
+
+/*--------------------*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+	background: rgba(0, 191, 255);
+	width: 100%;
+	height: 50px;
+	
+}
+.header__text {
+	text-align: center;
+	font-size: 55px;
+	color: #E0FFFF;
+	text-decoration:underline;
+}
+.main {
+	height: 100%;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	background-image: url("/img/background1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main__general {
+	margin: 0 auto;
+	width:90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.main__left {
+	min-width: 500px;
+	display: flex;
+	justify-content: center;
+	width:45%;
+	height: 90%;
+}
+.main__foto {
+display: block;
+	width: 140%;	
+}
+.main__center {
+	width: 50%;
+	min-width: 300px;
+}
+.main__text {
+	
+	margin: 170px 0 0 -90px;
+	display: inline-block;
+	color: #000;
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 25px;
+}
+.main__span {
+	padding: 0 0 0 200px;
+	font-weight: 700;
+	color: #FF1493;
+}
+.main__right {
+	min-width: 300px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+.main__img {
+	width: 100%;
+}
+.fotter {
+	background: #778899;
+	height: 50px;
+}
