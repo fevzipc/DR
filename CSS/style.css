@@ -84,7 +84,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100%;
 }
 .container {
 	width: 1440px;
@@ -94,10 +94,17 @@ body {
 .header {
 	width: 100%;
 	height: 50px;
+	background: #18b;
 }
-
+.header__text {
+	padding: 5px 0 0 0;
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+}
 .main {
 	height: 900px;
+	min-height: calc(100vh-80px);
 	background-image: url("/img/background1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -108,9 +115,11 @@ body {
   background-size: cover;
 }
 .main__header {
+	padding: 20px 0 0 0;
 	text-align: center;
-	display: inline;
-
+	font-size: 28px;
+	color: #fff;
+	font-weight: 700px;
 }
 .main__container {
 	position: relative;
@@ -118,24 +127,33 @@ body {
 	position: fixed;
 	display: flex;
 
-	border: 10px solid #18b;
 }
 .main__left {
 	min-width: 25%;
-	border: 10px solid #ece22e;
 	align-self: nowrap;
 }
 .main__center {
-	border: 10px solid #898989;
+	font-size: 28px;
+	line-height: 50px;
+}
+.main__center span {
+	padding: 220px;
+	font-weight: 700;
+	color: #ff00ff;
 }
 .main__right {
 	min-width: 30%;
-	border: 10px solid #ece89d;
+
 }
 .main__img {
-	width: 90%;
+	width: 70%;
 }
 .fotter {
 	background-color: #18b;
 	height: 50px;
+}
+.footer__text {
+	padding: 15px 0 0 0;
+	text-align: center;
+	color: #ffff;
 }
