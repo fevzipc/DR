@@ -114,6 +114,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .main__header {
 	padding: 20px 0 0 0;
 	text-align: center;
@@ -133,6 +134,7 @@ body {
 	align-self: nowrap;
 }
 .main__center {
+	margin: 15px 0 0 0;
 	font-size: 28px;
 	line-height: 50px;
 }
